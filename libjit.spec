@@ -10,6 +10,7 @@ Source0:	http://www.southern-storm.com.au/download/%{name}-%{version}.tar.gz
 URL:		http://www.southern-storm.com.au/libjit.html
 BuildRequires:	autoconf
 BuildRequires:	automake >= 1.6
+BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -60,7 +61,6 @@ Biblioteka kompilatora do interpretacji kodu - biblioteka statyczna.
 %setup -q
 
 %build
-rm -f missing
 %{__libtoolize}
 %{__aclocal}
 %{__autoconf}
