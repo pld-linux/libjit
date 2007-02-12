@@ -1,5 +1,5 @@
 Summary:	Just-In-Time Compiler Library
-Summary(pl):	Biblioteka kompilatora do interpretacji kodu
+Summary(pl.UTF-8):   Biblioteka kompilatora do interpretacji kodu
 Name:		libjit
 Version:	0.0.4
 Release:	1
@@ -23,38 +23,38 @@ is not a virtual machine in its own right. It is the foundation upon
 which a number of different virtual machines, dynamic scripting
 languages, etc, can be built.
 
-%description -l pl
-Biblioteka libjit posiada rozszerzalny zestaw bibliotek bior±cych
-udzia³ w procesie kompilacji Just-In-Time, bez zmuszania programisty
-do zni¿ania siê do poziomu jêzyka lub bytecodu.
+%description -l pl.UTF-8
+Biblioteka libjit posiada rozszerzalny zestaw bibliotek biorÄ…cych
+udziaÅ‚ w procesie kompilacji Just-In-Time, bez zmuszania programisty
+do zniÅ¼ania siÄ™ do poziomu jÄ™zyka lub bytecodu.
 
-W przeciwieñstwie do innych systemów jak JVM, .NET, Parrot lub LLVM,
-libjit nie jest normaln± maszyn± wirtualn±. Bazuje na ró¿nych
-maszynach wirtualnych, dynamicznych jêzykach skryptowych które mo¿e
-budowaæ.
+W przeciwieÅ„stwie do innych systemÃ³w jak JVM, .NET, Parrot lub LLVM,
+libjit nie jest normalnÄ… maszynÄ… wirtualnÄ…. Bazuje na rÃ³Å¼nych
+maszynach wirtualnych, dynamicznych jÄ™zykach skryptowych ktÃ³re moÅ¼e
+budowaÄ‡.
 
 %package devel
 Summary:	Just-In-Time Compiler Library - development files
-Summary(pl):	Biblioteka kompilatora do interpretacji kodu - pliki dla programistów
+Summary(pl.UTF-8):   Biblioteka kompilatora do interpretacji kodu - pliki dla programistÃ³w
 Group:		Development/Languages
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Just-In-Time Compiler Library - development files.
 
-%description devel -l pl
-Biblioteka kompilatora do interpretacji kodu - pliki dla programistów.
+%description devel -l pl.UTF-8
+Biblioteka kompilatora do interpretacji kodu - pliki dla programistÃ³w.
 
 %package static
 Summary:	Just-In-Time Compiler Library - static files
-Summary(pl):	Biblioteka kompilatora do interpretacji kodu - wersja statyczna
+Summary(pl.UTF-8):   Biblioteka kompilatora do interpretacji kodu - wersja statyczna
 Group:		Development/Languages
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Just-In-Time Compiler Library - static libraries.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Biblioteka kompilatora do interpretacji kodu - biblioteka statyczna.
 
 %prep
