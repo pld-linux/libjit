@@ -1,5 +1,5 @@
 Summary:	Just-In-Time Compiler Library
-Summary(pl.UTF-8):   Biblioteka kompilatora do interpretacji kodu
+Summary(pl.UTF-8):	Biblioteka kompilatora do interpretacji kodu
 Name:		libjit
 Version:	0.0.4
 Release:	1
@@ -35,7 +35,7 @@ budować.
 
 %package devel
 Summary:	Just-In-Time Compiler Library - development files
-Summary(pl.UTF-8):   Biblioteka kompilatora do interpretacji kodu - pliki dla programistów
+Summary(pl.UTF-8):	Biblioteka kompilatora do interpretacji kodu - pliki dla programistów
 Group:		Development/Languages
 Requires:	%{name} = %{version}-%{release}
 
@@ -47,7 +47,7 @@ Biblioteka kompilatora do interpretacji kodu - pliki dla programistów.
 
 %package static
 Summary:	Just-In-Time Compiler Library - static files
-Summary(pl.UTF-8):   Biblioteka kompilatora do interpretacji kodu - wersja statyczna
+Summary(pl.UTF-8):	Biblioteka kompilatora do interpretacji kodu - wersja statyczna
 Group:		Development/Languages
 Requires:	%{name}-devel = %{version}-%{release}
 
