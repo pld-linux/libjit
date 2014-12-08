@@ -1,13 +1,13 @@
 Summary:	Just-In-Time Compiler Library
 Summary(pl.UTF-8):	Biblioteka kompilatora do interpretacji kodu
 Name:		libjit
-Version:	0.0.4
-Release:	1
+Version:	0.1.0
+Release:	0.1
 License:	GPL
 Group:		Development/Languages
-Source0:	http://www.southern-storm.com.au/download/%{name}-%{version}.tar.gz
-# Source0-md5:	eda01981d60a996434d3d4e36c84d6c2
-URL:		http://www.southern-storm.com.au/libjit.html
+Source0:	http://download.savannah.gnu.org/releases/dotgnu-pnet/%{name}-%{version}.tar.gz
+# Source0-md5:	d6e3f83ad74ebfc20cc47d1c8913b343
+URL:		http://www.gnu.org/software/dotgnu/pnet.html
 BuildRequires:	autoconf
 BuildRequires:	automake >= 1.6
 BuildRequires:	libtool
