@@ -5,16 +5,15 @@
 Summary:	Just-In-Time Compiler Library
 Summary(pl.UTF-8):	Biblioteka kompilatora do interpretacji kodu
 Name:		libjit
-Version:	0.1.0
+Version:	0.1.2
 Release:	1
 License:	GPL v2+
 Group:		Libraries
-Source0:	http://download.savannah.gnu.org/releases/dotgnu-pnet/%{name}-%{version}.tar.gz
-# Source0-md5:	d6e3f83ad74ebfc20cc47d1c8913b343
+Source0:	http://download.savannah.gnu.org/releases/dotgnu-pnet/libjit-releases/%{name}-%{version}.tar.gz
+# Source0-md5:	9e0c1986da9a03ce68cfb3021bbc6701
 Patch0:		%{name}-format.patch
 Patch1:		%{name}-info.patch
 Patch2:		%{name}-am.patch
-Patch3:		%{name}-missing.patch
 URL:		http://www.gnu.org/software/dotgnu/pnet.html
 BuildRequires:	autoconf
 BuildRequires:	automake >= 1.6
@@ -71,7 +70,6 @@ Biblioteka kompilatora do interpretacji kodu - biblioteka statyczna.
 %patch0 -p1
 %patch1 -p1
 %patch2 -p1
-%patch3 -p1
 
 %build
 %{__libtoolize}
