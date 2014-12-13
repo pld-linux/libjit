@@ -1,0 +1,18 @@
+--- libjit-0.1.0/tools/gen-rules-parser.y.orig	2007-02-22 20:08:33.000000000 +0100
++++ libjit-0.1.0/tools/gen-rules-parser.y	2014-12-13 15:36:30.654634611 +0100
+@@ -846,13 +846,13 @@
+ 		if(*code == '$' && code[1] >= first && code[1] < (first + MAX_PATTERN))
+ 		{
+ 			index = code[1] - first;
+-			printf(names[index]);
++			printf("%s", names[index]);
+ 			code += 2;
+ 		}
+ 		else if(*code == '%' && code[1] >= first && code[1] < (first + MAX_PATTERN))
+ 		{
+ 			index = code[1] - first;
+-			printf(other_names[index]);
++			printf("%s", other_names[index]);
+ 			code += 2;
+ 		}
+ 		else if(*code == '\n')

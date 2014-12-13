@@ -1,0 +1,8 @@
+--- libjit-0.1.0/tests/Makefile.am.orig	2014-12-13 16:25:39.681177519 +0100
++++ libjit-0.1.0/tests/Makefile.am	2014-12-13 16:24:18.421180929 +0100
+@@ -4,4 +4,4 @@
+ 		math.pas \
+ 		param.pas
+ EXTRA_DIST = $(TESTS)
+-TESTS_ENVIRONMENT = $(top_builddir)/dpas/dpas --dont-fold
++LOG_COMPILER = $(top_builddir)/dpas/dpas --dont-fold

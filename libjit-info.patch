@@ -1,0 +1,25 @@
+--- libjit-0.1.0/doc/libjit.texi.orig	2004-10-06 16:30:31.000000000 +0200
++++ libjit-0.1.0/doc/libjit.texi	2014-12-13 15:58:50.877911701 +0100
+@@ -5,9 +5,9 @@
+ @setchapternewpage off
+ @c %** end of header
+ 
+-@dircategory Libraries
++@dircategory Libraries:
+ @direntry
+-* Libjit: (libjit).                Just-In-Time Compiler Library
++* Libjit: (libjit).			Just-In-Time Compiler Library
+ @end direntry
+ 
+ @ifinfo
+--- libjit-0.1.0/doc/libjit.texi.orig	2014-12-13 16:40:21.834473832 +0100
++++ libjit-0.1.0/doc/libjit.texi	2014-12-13 16:50:32.664448198 +0100
+@@ -23,7 +23,7 @@
+ @center @titlefont{Just-In-Time Compiler Library}
+ 
+ @vskip 0pt plus 1fill
+-@center{Copyright @copyright{} 2004 Southern Storm Software, Pty Ltd}
++@center Copyright @copyright{} 2004 Southern Storm Software, Pty Ltd
+ @end titlepage
+ 
+ @syncodeindex fn cp
