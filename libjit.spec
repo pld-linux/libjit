@@ -14,6 +14,7 @@ Source0:	http://download.savannah.gnu.org/releases/dotgnu-pnet/%{name}-%{version
 Patch0:		%{name}-format.patch
 Patch1:		%{name}-info.patch
 Patch2:		%{name}-am.patch
+Patch3:		%{name}-missing.patch
 URL:		http://www.gnu.org/software/dotgnu/pnet.html
 BuildRequires:	autoconf
 BuildRequires:	automake >= 1.6
@@ -70,6 +71,7 @@ Biblioteka kompilatora do interpretacji kodu - biblioteka statyczna.
 %patch0 -p1
 %patch1 -p1
 %patch2 -p1
+%patch3 -p1
 
 %build
 %{__libtoolize}
